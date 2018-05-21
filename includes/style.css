@@ -1,3 +1,8 @@
+@viewport {
+    width:480px;
+    zoom:1;
+}
+
 * {
     margin:0; padding:0;
 }
@@ -219,4 +224,106 @@ aside {
 
 #layout_2 #box_5 {
     height: 223px;
+}
+
+
+/******************/
+/*----LAYOUT 3----*/
+/******************/
+
+#layout_3 #logo {
+    margin: 22 0 0 20;
+}
+
+#layout_3 #plusButton {
+    position: absolute;
+    background: url(../images/plus.png) no-repeat;
+    width: 86px;
+    height: 86px;
+    top: 207px;
+    left: 207px;
+}
+
+#layout_3 #plusButton:hover {
+    cursor: pointer; 
+}
+
+#layout_3 header {
+    position: relative;
+    float: left;
+    width: 500px;
+    height: 500px;
+    background: #c7c6b7;
+}
+
+#layout_3 nav {
+    position: absolute;
+    float: left;
+    width: 500px;
+    height: 62px;
+    bottom: 0px;
+}
+
+#layout_3 nav ul {
+    width: 500px;
+    height: 62px;
+}
+
+#layout_3 nav ul li {
+    width: 166.666px;
+    height: 62px;
+    position: relative;
+    float: left;
+    text-align: center;
+    background-color: #b94a48;
+}
+
+#layout_3 .selected_3 {
+    background: #000000;
+}
+
+#layout_3 nav ul li a h2 {
+    margin-top: 23px;
+}
+
+#layout_3 nav ul li a {
+    width: 166.666px;
+    height: 62px;
+    float: left;
+}
+
+#layout_3 #container {
+    position: relative;
+    float: left;
+    width: 500px;
+    height: 500px;
+    background: #9d261d;
+    flex-wrap: wrap;
+}
+
+#layout_3 #mainSection {
+    width: 1000px;
+    min-height: 500px;
+    height: auto;
+    background: #9d261d;
+    float: left;
+}
+
+#layout_3 #container > article {
+    float: left;
+    width: 250px;
+    height: 250px;
+    background: #000000;
+}
+
+#layout_3 #mainSection > article {
+    float: left;
+    width: 250px;
+    height: 250px;
+    background: #000000;
+}
+
+#layout_3 #mainSection article:hover, #layout_3 #container article:hover {
+    background: #ffffff !important;
+    opacity: 1 !important;
 }
