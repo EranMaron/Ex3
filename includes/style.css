@@ -1,8 +1,3 @@
-@viewport {
-    width:480px;
-    zoom:1;
-}
-
 * {
     margin:0; padding:0;
 }
@@ -232,7 +227,7 @@ aside {
 /******************/
 
 #layout_3 #logo {
-    margin: 22 0 0 20;
+    margin: 22px 0px 0px 20px;
 }
 
 #layout_3 #plusButton {
@@ -248,15 +243,15 @@ aside {
     cursor: pointer; 
 }
 
-#layout_3 header {
+#layout_3 #wrapper header {
     position: relative;
     float: left;
     width: 500px;
     height: 500px;
-    background: #c7c6b7;
+    background: #ffffff;
 }
 
-#layout_3 nav {
+#layout_3 #wrapper nav {
     position: absolute;
     float: left;
     width: 500px;
@@ -264,13 +259,13 @@ aside {
     bottom: 0px;
 }
 
-#layout_3 nav ul {
+#layout_3 #wrapper nav ul {
     width: 500px;
     height: 62px;
 }
 
 #layout_3 nav ul li {
-    width: 166.666px;
+    width: 166.66px;
     height: 62px;
     position: relative;
     float: left;
@@ -287,43 +282,33 @@ aside {
 }
 
 #layout_3 nav ul li a {
-    width: 166.666px;
+    width: 166.66px;
     height: 62px;
     float: left;
 }
 
-#layout_3 #container {
-    position: relative;
-    float: left;
-    width: 500px;
-    height: 500px;
-    background: #9d261d;
-    flex-wrap: wrap;
-}
-
-#layout_3 #mainSection {
-    width: 1000px;
-    min-height: 500px;
-    height: auto;
-    background: #9d261d;
-    float: left;
-}
-
-#layout_3 #container > article {
-    float: left;
-    width: 250px;
-    height: 250px;
-    background: #000000;
-}
-
-#layout_3 #mainSection > article {
-    float: left;
-    width: 250px;
-    height: 250px;
-    background: #000000;
-}
-
-#layout_3 #mainSection article:hover, #layout_3 #container article:hover {
+#layout_3 #main article:hover {
     background: #ffffff !important;
     opacity: 1 !important;
+}
+
+#layout_3 #main {
+    float: left;
+    max-width: 100%;
+    width: auto;
+    min-height:1000px;
+    background: #b94a48;
+}   
+
+#layout_3 #main > article {
+    float: left;
+    width: 250px;
+    height: 250px;
+    background: #111111;
+}
+
+#layout_3 #wrapper {
+    max-width: 1000px;
+    width: auto;
+    height: 1000px;
 }
